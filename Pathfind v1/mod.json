@@ -1,0 +1,17 @@
+{
+	"geode": "5.8.2",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "kennythe77.pathfind-v1",
+	"name": "Pathfind v1",
+	"version": "v1.0.0",
+	"developer": "Kennythe77",
+	"description": "My attempt on tryin to make a pathfinder bot",
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	}
+}

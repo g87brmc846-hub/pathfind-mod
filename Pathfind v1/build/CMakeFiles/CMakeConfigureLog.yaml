@@ -1,0 +1,3273 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/ninja-build.com"
+      - "C:/Windows/System32/ninja-build.exe"
+      - "C:/Windows/System32/ninja-build"
+      - "C:/Windows/System32/ninja.com"
+      - "C:/Windows/System32/ninja.exe"
+      - "C:/Windows/System32/ninja"
+      - "C:/Windows/System32/samu.com"
+      - "C:/Windows/System32/samu.exe"
+      - "C:/Windows/System32/samu"
+      - "C:/Windows/ninja-build.com"
+      - "C:/Windows/ninja-build.exe"
+      - "C:/Windows/ninja-build"
+      - "C:/Windows/ninja.com"
+      - "C:/Windows/ninja.exe"
+      - "C:/Windows/ninja"
+      - "C:/Windows/samu.com"
+      - "C:/Windows/samu.exe"
+      - "C:/Windows/samu"
+      - "C:/Windows/System32/wbem/ninja-build.com"
+      - "C:/Windows/System32/wbem/ninja-build.exe"
+      - "C:/Windows/System32/wbem/ninja-build"
+      - "C:/Windows/System32/wbem/ninja.com"
+      - "C:/Windows/System32/wbem/ninja.exe"
+      - "C:/Windows/System32/wbem/ninja"
+      - "C:/Windows/System32/wbem/samu.com"
+      - "C:/Windows/System32/wbem/samu.exe"
+      - "C:/Windows/System32/wbem/samu"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja-build"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ninja"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/samu"
+      - "C:/Windows/System32/OpenSSH/ninja-build.com"
+      - "C:/Windows/System32/OpenSSH/ninja-build.exe"
+      - "C:/Windows/System32/OpenSSH/ninja-build"
+      - "C:/Windows/System32/OpenSSH/ninja.com"
+      - "C:/Windows/System32/OpenSSH/ninja.exe"
+      - "C:/Windows/System32/OpenSSH/ninja"
+      - "C:/Windows/System32/OpenSSH/samu.com"
+      - "C:/Windows/System32/OpenSSH/samu.exe"
+      - "C:/Windows/System32/OpenSSH/samu"
+      - "C:/Program Files/dotnet/ninja-build.com"
+      - "C:/Program Files/dotnet/ninja-build.exe"
+      - "C:/Program Files/dotnet/ninja-build"
+      - "C:/Program Files/dotnet/ninja.com"
+      - "C:/Program Files/dotnet/ninja.exe"
+      - "C:/Program Files/dotnet/ninja"
+      - "C:/Program Files/dotnet/samu.com"
+      - "C:/Program Files/dotnet/samu.exe"
+      - "C:/Program Files/dotnet/samu"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ninja-build.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ninja-build.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ninja-build"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ninja.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ninja.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ninja"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/samu.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/samu.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/samu"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ninja-build.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ninja-build.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ninja-build"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ninja.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ninja.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ninja"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/samu.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/samu.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/samu"
+      - "C:/Program Files/xmake/ninja-build.com"
+      - "C:/Program Files/xmake/ninja-build.exe"
+      - "C:/Program Files/xmake/ninja-build"
+      - "C:/Program Files/xmake/ninja.com"
+      - "C:/Program Files/xmake/ninja.exe"
+      - "C:/Program Files/xmake/ninja"
+      - "C:/Program Files/xmake/samu.com"
+      - "C:/Program Files/xmake/samu.exe"
+      - "C:/Program Files/xmake/samu"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ninja-build.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ninja-build.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ninja-build"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ninja.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ninja.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ninja"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/samu.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/samu.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/samu"
+      - "C:/Users/Administrator/scoop/shims/ninja-build.com"
+      - "C:/Users/Administrator/scoop/shims/ninja-build.exe"
+      - "C:/Users/Administrator/scoop/shims/ninja-build"
+      - "C:/Users/Administrator/scoop/shims/ninja.com"
+      - "C:/Users/Administrator/scoop/shims/ninja.exe"
+      - "C:/Users/Administrator/scoop/shims/ninja"
+      - "C:/Users/Administrator/scoop/shims/samu.com"
+      - "C:/Users/Administrator/scoop/shims/samu.exe"
+      - "C:/Users/Administrator/scoop/shims/samu"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ninja-build.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ninja-build.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ninja-build"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ninja.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ninja.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ninja"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/samu.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/samu.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/samu"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ninja-build.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ninja-build.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ninja-build"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ninja.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ninja.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ninja"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/samu.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/samu.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/samu"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ninja-build.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ninja-build.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ninja-build"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ninja.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ninja.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ninja"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/samu.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/samu.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/samu"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ninja-build.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ninja-build.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ninja-build"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ninja.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ninja.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ninja"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/samu.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/samu.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/samu"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ninja-build.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ninja-build.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ninja-build"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ninja.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ninja.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ninja"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/samu.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/samu.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/samu"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ninja-build.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ninja-build.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ninja-build"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ninja.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ninja.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ninja"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/samu.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/samu.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/samu"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja-build.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja-build.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja-build"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.com"
+    found: "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ninja.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:67 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cl"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Program Files/dotnet/cl.com"
+      - "C:/Program Files/dotnet/cl.exe"
+      - "C:/Program Files/dotnet/cl"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/cl"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/cl.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/cl.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/cl"
+      - "C:/Program Files/xmake/cl.com"
+      - "C:/Program Files/xmake/cl.exe"
+      - "C:/Program Files/xmake/cl"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/cl.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/cl.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/cl"
+      - "C:/Users/Administrator/scoop/shims/cl.com"
+      - "C:/Users/Administrator/scoop/shims/cl.exe"
+      - "C:/Users/Administrator/scoop/shims/cl"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/cl.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/cl"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/cl"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/cl"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/cl.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/cl.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/cl"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/cl"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/cl"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -Aa 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -D__CLASSIC_C__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/ar.com"
+      - "C:/Windows/System32/ar.exe"
+      - "C:/Windows/System32/ar"
+      - "C:/Windows/ar.com"
+      - "C:/Windows/ar.exe"
+      - "C:/Windows/ar"
+      - "C:/Windows/System32/wbem/ar.com"
+      - "C:/Windows/System32/wbem/ar.exe"
+      - "C:/Windows/System32/wbem/ar"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ar.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ar.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ar"
+      - "C:/Windows/System32/OpenSSH/ar.com"
+      - "C:/Windows/System32/OpenSSH/ar.exe"
+      - "C:/Windows/System32/OpenSSH/ar"
+      - "C:/Program Files/dotnet/ar.com"
+      - "C:/Program Files/dotnet/ar.exe"
+      - "C:/Program Files/dotnet/ar"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ar.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ar.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ar"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ar.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ar.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ar"
+      - "C:/Program Files/xmake/ar.com"
+      - "C:/Program Files/xmake/ar.exe"
+      - "C:/Program Files/xmake/ar"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ar.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ar.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ar"
+      - "C:/Users/Administrator/scoop/shims/ar.com"
+      - "C:/Users/Administrator/scoop/shims/ar.exe"
+      - "C:/Users/Administrator/scoop/shims/ar"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ar.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ar.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ar"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ar.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ar.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ar"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ar.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ar.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ar"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ar.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ar.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ar"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ar.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ar.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ar"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ar.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ar.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ar"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ar.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ar.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ar"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/ranlib.com"
+      - "C:/Windows/System32/ranlib.exe"
+      - "C:/Windows/System32/ranlib"
+      - "C:/Windows/ranlib.com"
+      - "C:/Windows/ranlib.exe"
+      - "C:/Windows/ranlib"
+      - "C:/Windows/System32/wbem/ranlib.com"
+      - "C:/Windows/System32/wbem/ranlib.exe"
+      - "C:/Windows/System32/wbem/ranlib"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ranlib.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ranlib.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ranlib"
+      - "C:/Windows/System32/OpenSSH/ranlib.com"
+      - "C:/Windows/System32/OpenSSH/ranlib.exe"
+      - "C:/Windows/System32/OpenSSH/ranlib"
+      - "C:/Program Files/dotnet/ranlib.com"
+      - "C:/Program Files/dotnet/ranlib.exe"
+      - "C:/Program Files/dotnet/ranlib"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ranlib.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ranlib.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ranlib"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ranlib.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ranlib.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ranlib"
+      - "C:/Program Files/xmake/ranlib.com"
+      - "C:/Program Files/xmake/ranlib.exe"
+      - "C:/Program Files/xmake/ranlib"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ranlib.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ranlib.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ranlib"
+      - "C:/Users/Administrator/scoop/shims/ranlib.com"
+      - "C:/Users/Administrator/scoop/shims/ranlib.exe"
+      - "C:/Users/Administrator/scoop/shims/ranlib"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ranlib.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ranlib.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ranlib"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ranlib.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ranlib.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ranlib"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ranlib.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ranlib.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ranlib"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ranlib.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ranlib.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ranlib"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ranlib.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ranlib.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ranlib"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ranlib.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ranlib.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ranlib"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ranlib.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ranlib.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ranlib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/strip.com"
+      - "C:/Windows/System32/strip.exe"
+      - "C:/Windows/System32/strip"
+      - "C:/Windows/strip.com"
+      - "C:/Windows/strip.exe"
+      - "C:/Windows/strip"
+      - "C:/Windows/System32/wbem/strip.com"
+      - "C:/Windows/System32/wbem/strip.exe"
+      - "C:/Windows/System32/wbem/strip"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/strip.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/strip.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/strip"
+      - "C:/Windows/System32/OpenSSH/strip.com"
+      - "C:/Windows/System32/OpenSSH/strip.exe"
+      - "C:/Windows/System32/OpenSSH/strip"
+      - "C:/Program Files/dotnet/strip.com"
+      - "C:/Program Files/dotnet/strip.exe"
+      - "C:/Program Files/dotnet/strip"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/strip.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/strip.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/strip"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/strip.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/strip.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/strip"
+      - "C:/Program Files/xmake/strip.com"
+      - "C:/Program Files/xmake/strip.exe"
+      - "C:/Program Files/xmake/strip"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/strip.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/strip.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/strip"
+      - "C:/Users/Administrator/scoop/shims/strip.com"
+      - "C:/Users/Administrator/scoop/shims/strip.exe"
+      - "C:/Users/Administrator/scoop/shims/strip"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/strip.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/strip.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/strip"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/strip.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/strip.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/strip"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/strip.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/strip.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/strip"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/strip.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/strip.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/strip"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/strip.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/strip.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/strip"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/strip.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/strip.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/strip"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/strip.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/strip.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/strip"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/ld.com"
+      - "C:/Windows/System32/ld.exe"
+      - "C:/Windows/System32/ld"
+      - "C:/Windows/ld.com"
+      - "C:/Windows/ld.exe"
+      - "C:/Windows/ld"
+      - "C:/Windows/System32/wbem/ld.com"
+      - "C:/Windows/System32/wbem/ld.exe"
+      - "C:/Windows/System32/wbem/ld"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ld.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ld.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/ld"
+      - "C:/Windows/System32/OpenSSH/ld.com"
+      - "C:/Windows/System32/OpenSSH/ld.exe"
+      - "C:/Windows/System32/OpenSSH/ld"
+      - "C:/Program Files/dotnet/ld.com"
+      - "C:/Program Files/dotnet/ld.exe"
+      - "C:/Program Files/dotnet/ld"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ld.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ld.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/ld"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ld.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ld.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/ld"
+      - "C:/Program Files/xmake/ld.com"
+      - "C:/Program Files/xmake/ld.exe"
+      - "C:/Program Files/xmake/ld"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ld.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ld.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/ld"
+      - "C:/Users/Administrator/scoop/shims/ld.com"
+      - "C:/Users/Administrator/scoop/shims/ld.exe"
+      - "C:/Users/Administrator/scoop/shims/ld"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ld.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ld.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/ld"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ld.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ld.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/ld"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ld.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ld.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/ld"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ld.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ld.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/ld"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ld.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ld.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/ld"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ld.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ld.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/ld"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ld.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ld.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/ld"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/nm.com"
+      - "C:/Windows/System32/nm.exe"
+      - "C:/Windows/System32/nm"
+      - "C:/Windows/nm.com"
+      - "C:/Windows/nm.exe"
+      - "C:/Windows/nm"
+      - "C:/Windows/System32/wbem/nm.com"
+      - "C:/Windows/System32/wbem/nm.exe"
+      - "C:/Windows/System32/wbem/nm"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nm.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nm.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/nm"
+      - "C:/Windows/System32/OpenSSH/nm.com"
+      - "C:/Windows/System32/OpenSSH/nm.exe"
+      - "C:/Windows/System32/OpenSSH/nm"
+      - "C:/Program Files/dotnet/nm.com"
+      - "C:/Program Files/dotnet/nm.exe"
+      - "C:/Program Files/dotnet/nm"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/nm.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/nm.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/nm"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/nm.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/nm.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/nm"
+      - "C:/Program Files/xmake/nm.com"
+      - "C:/Program Files/xmake/nm.exe"
+      - "C:/Program Files/xmake/nm"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/nm.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/nm.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/nm"
+      - "C:/Users/Administrator/scoop/shims/nm.com"
+      - "C:/Users/Administrator/scoop/shims/nm.exe"
+      - "C:/Users/Administrator/scoop/shims/nm"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/nm.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/nm.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/nm"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/nm.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/nm.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/nm"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/nm.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/nm.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/nm"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/nm.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/nm.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/nm"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/nm.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/nm.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/nm"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/nm.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/nm.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/nm"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/nm.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/nm.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/nm"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/objdump.com"
+      - "C:/Windows/System32/objdump.exe"
+      - "C:/Windows/System32/objdump"
+      - "C:/Windows/objdump.com"
+      - "C:/Windows/objdump.exe"
+      - "C:/Windows/objdump"
+      - "C:/Windows/System32/wbem/objdump.com"
+      - "C:/Windows/System32/wbem/objdump.exe"
+      - "C:/Windows/System32/wbem/objdump"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objdump.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objdump.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objdump"
+      - "C:/Windows/System32/OpenSSH/objdump.com"
+      - "C:/Windows/System32/OpenSSH/objdump.exe"
+      - "C:/Windows/System32/OpenSSH/objdump"
+      - "C:/Program Files/dotnet/objdump.com"
+      - "C:/Program Files/dotnet/objdump.exe"
+      - "C:/Program Files/dotnet/objdump"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/objdump.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/objdump.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/objdump"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/objdump.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/objdump.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/objdump"
+      - "C:/Program Files/xmake/objdump.com"
+      - "C:/Program Files/xmake/objdump.exe"
+      - "C:/Program Files/xmake/objdump"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/objdump.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/objdump.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/objdump"
+      - "C:/Users/Administrator/scoop/shims/objdump.com"
+      - "C:/Users/Administrator/scoop/shims/objdump.exe"
+      - "C:/Users/Administrator/scoop/shims/objdump"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/objdump.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/objdump.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/objdump"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/objdump.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/objdump.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/objdump"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/objdump.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/objdump.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/objdump"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/objdump.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/objdump.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/objdump"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/objdump.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/objdump.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/objdump"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/objdump.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/objdump.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/objdump"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/objdump.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/objdump.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/objdump"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/objcopy.com"
+      - "C:/Windows/System32/objcopy.exe"
+      - "C:/Windows/System32/objcopy"
+      - "C:/Windows/objcopy.com"
+      - "C:/Windows/objcopy.exe"
+      - "C:/Windows/objcopy"
+      - "C:/Windows/System32/wbem/objcopy.com"
+      - "C:/Windows/System32/wbem/objcopy.exe"
+      - "C:/Windows/System32/wbem/objcopy"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objcopy.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objcopy.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/objcopy"
+      - "C:/Windows/System32/OpenSSH/objcopy.com"
+      - "C:/Windows/System32/OpenSSH/objcopy.exe"
+      - "C:/Windows/System32/OpenSSH/objcopy"
+      - "C:/Program Files/dotnet/objcopy.com"
+      - "C:/Program Files/dotnet/objcopy.exe"
+      - "C:/Program Files/dotnet/objcopy"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/objcopy.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/objcopy.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/objcopy"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/objcopy.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/objcopy.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/objcopy"
+      - "C:/Program Files/xmake/objcopy.com"
+      - "C:/Program Files/xmake/objcopy.exe"
+      - "C:/Program Files/xmake/objcopy"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/objcopy.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/objcopy.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/objcopy"
+      - "C:/Users/Administrator/scoop/shims/objcopy.com"
+      - "C:/Users/Administrator/scoop/shims/objcopy.exe"
+      - "C:/Users/Administrator/scoop/shims/objcopy"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/objcopy.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/objcopy.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/objcopy"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/objcopy.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/objcopy.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/objcopy"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/objcopy.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/objcopy.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/objcopy"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/objcopy.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/objcopy.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/objcopy"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/objcopy.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/objcopy.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/objcopy"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/objcopy.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/objcopy.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/objcopy"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/objcopy.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/objcopy.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/readelf.com"
+      - "C:/Windows/System32/readelf.exe"
+      - "C:/Windows/System32/readelf"
+      - "C:/Windows/readelf.com"
+      - "C:/Windows/readelf.exe"
+      - "C:/Windows/readelf"
+      - "C:/Windows/System32/wbem/readelf.com"
+      - "C:/Windows/System32/wbem/readelf.exe"
+      - "C:/Windows/System32/wbem/readelf"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/readelf"
+      - "C:/Windows/System32/OpenSSH/readelf.com"
+      - "C:/Windows/System32/OpenSSH/readelf.exe"
+      - "C:/Windows/System32/OpenSSH/readelf"
+      - "C:/Program Files/dotnet/readelf.com"
+      - "C:/Program Files/dotnet/readelf.exe"
+      - "C:/Program Files/dotnet/readelf"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/readelf.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/readelf.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/readelf"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/readelf.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/readelf.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/readelf"
+      - "C:/Program Files/xmake/readelf.com"
+      - "C:/Program Files/xmake/readelf.exe"
+      - "C:/Program Files/xmake/readelf"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/readelf.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/readelf.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/readelf"
+      - "C:/Users/Administrator/scoop/shims/readelf.com"
+      - "C:/Users/Administrator/scoop/shims/readelf.exe"
+      - "C:/Users/Administrator/scoop/shims/readelf"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/readelf.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/readelf.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/readelf"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/readelf.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/readelf.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/readelf"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/readelf.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/readelf.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/readelf"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/readelf.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/readelf.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/readelf"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/readelf.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/readelf.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/readelf"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/readelf.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/readelf.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/readelf"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/readelf.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/readelf.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/dlltool.com"
+      - "C:/Windows/System32/dlltool.exe"
+      - "C:/Windows/System32/dlltool"
+      - "C:/Windows/dlltool.com"
+      - "C:/Windows/dlltool.exe"
+      - "C:/Windows/dlltool"
+      - "C:/Windows/System32/wbem/dlltool.com"
+      - "C:/Windows/System32/wbem/dlltool.exe"
+      - "C:/Windows/System32/wbem/dlltool"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/dlltool"
+      - "C:/Windows/System32/OpenSSH/dlltool.com"
+      - "C:/Windows/System32/OpenSSH/dlltool.exe"
+      - "C:/Windows/System32/OpenSSH/dlltool"
+      - "C:/Program Files/dotnet/dlltool.com"
+      - "C:/Program Files/dotnet/dlltool.exe"
+      - "C:/Program Files/dotnet/dlltool"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/dlltool.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/dlltool.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/dlltool"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/dlltool.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/dlltool.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/dlltool"
+      - "C:/Program Files/xmake/dlltool.com"
+      - "C:/Program Files/xmake/dlltool.exe"
+      - "C:/Program Files/xmake/dlltool"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/dlltool.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/dlltool.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/dlltool"
+      - "C:/Users/Administrator/scoop/shims/dlltool.com"
+      - "C:/Users/Administrator/scoop/shims/dlltool.exe"
+      - "C:/Users/Administrator/scoop/shims/dlltool"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/dlltool.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/dlltool.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/dlltool"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/dlltool.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/dlltool.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/dlltool"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/dlltool.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/dlltool.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/dlltool"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/dlltool.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/dlltool.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/dlltool"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/dlltool.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/dlltool.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/dlltool"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/dlltool.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/dlltool.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/dlltool"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/dlltool.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/dlltool.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/addr2line.com"
+      - "C:/Windows/System32/addr2line.exe"
+      - "C:/Windows/System32/addr2line"
+      - "C:/Windows/addr2line.com"
+      - "C:/Windows/addr2line.exe"
+      - "C:/Windows/addr2line"
+      - "C:/Windows/System32/wbem/addr2line.com"
+      - "C:/Windows/System32/wbem/addr2line.exe"
+      - "C:/Windows/System32/wbem/addr2line"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/addr2line.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/addr2line.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/addr2line"
+      - "C:/Windows/System32/OpenSSH/addr2line.com"
+      - "C:/Windows/System32/OpenSSH/addr2line.exe"
+      - "C:/Windows/System32/OpenSSH/addr2line"
+      - "C:/Program Files/dotnet/addr2line.com"
+      - "C:/Program Files/dotnet/addr2line.exe"
+      - "C:/Program Files/dotnet/addr2line"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/addr2line.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/addr2line.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/addr2line"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/addr2line.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/addr2line.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/addr2line"
+      - "C:/Program Files/xmake/addr2line.com"
+      - "C:/Program Files/xmake/addr2line.exe"
+      - "C:/Program Files/xmake/addr2line"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/addr2line.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/addr2line.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/addr2line"
+      - "C:/Users/Administrator/scoop/shims/addr2line.com"
+      - "C:/Users/Administrator/scoop/shims/addr2line.exe"
+      - "C:/Users/Administrator/scoop/shims/addr2line"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/addr2line.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/addr2line.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/addr2line"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/addr2line.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/addr2line.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/addr2line"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/addr2line.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/addr2line.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/addr2line"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/addr2line.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/addr2line.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/addr2line"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/addr2line.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/addr2line.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/addr2line"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/addr2line.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/addr2line.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/addr2line"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/addr2line.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/addr2line.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/tapi.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/tapi.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/tapi"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/tapi.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/tapi.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/tapi"
+      - "C:/Program Files/xmake/tapi.com"
+      - "C:/Program Files/xmake/tapi.exe"
+      - "C:/Program Files/xmake/tapi"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/tapi.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/tapi.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/tapi"
+      - "C:/Users/Administrator/scoop/shims/tapi.com"
+      - "C:/Users/Administrator/scoop/shims/tapi.exe"
+      - "C:/Users/Administrator/scoop/shims/tapi"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/tapi.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/tapi.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/tapi"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/tapi.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/tapi.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/tapi"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/tapi.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/tapi.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/tapi"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/tapi.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/tapi.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/tapi"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cl"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/"
+      - "C:/Program Files/xmake/"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/"
+      - "C:/Users/Administrator/scoop/shims/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+    searched_directories:
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Program Files/dotnet/cl.com"
+      - "C:/Program Files/dotnet/cl.exe"
+      - "C:/Program Files/dotnet/cl"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Muse Hub/lib/cl"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/cl.com"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/cl.exe"
+      - "C:/Users/Administrator/Desktop/POWERFUL/bin/cl"
+      - "C:/Program Files/xmake/cl.com"
+      - "C:/Program Files/xmake/cl.exe"
+      - "C:/Program Files/xmake/cl"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/cl.com"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/cl.exe"
+      - "C:/Users/Administrator/scoop/apps/git/current/cmd/cl"
+      - "C:/Users/Administrator/scoop/shims/cl.com"
+      - "C:/Users/Administrator/scoop/shims/cl.exe"
+      - "C:/Users/Administrator/scoop/shims/cl"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WindowsApps/cl"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/cl.com"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/VEMRjgu/cl"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Python/bin/cl"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/bin/cl"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/cl.com"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/cl.exe"
+      - "C:/Users/Administrator/Desktop/w64devkit/bin/cl"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Links/cl"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/cl.com"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/cl.exe"
+      - "C:/Users/Administrator/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/cl"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/"
+    found: "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\Desktop\\POWERFUL\\bin"
+        - "C:\\Program Files\\xmake"
+        - "C:\\Users\\Administrator\\scoop\\apps\\git\\current\\cmd"
+        - "C:\\Users\\Administrator\\scoop\\shims"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Administrator\\AppData\\Local\\VEMRjgu\\"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Administrator\\Desktop\\w64devkit\\bin"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Links"
+        - "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: cl 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:1341 (message)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Users/Administrator/Desktop/POWERFUL/share/cmake-4.4/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:11 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+...
